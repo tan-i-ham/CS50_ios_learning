@@ -13,6 +13,8 @@
 		67D139CB2459095D006C42DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67D139C92459095D006C42DD /* Main.storyboard */; };
 		67D139CD2459095F006C42DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67D139CC2459095F006C42DD /* Assets.xcassets */; };
 		67D139D02459095F006C42DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67D139CE2459095F006C42DD /* LaunchScreen.storyboard */; };
+		67D139D82459109F006C42DD /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D139D72459109F006C42DD /* Pokemon.swift */; };
+		67D139DA24591CB4006C42DD /* PokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D139D924591CB4006C42DD /* PokemonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		67D139CC2459095F006C42DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67D139CF2459095F006C42DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67D139D12459095F006C42DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67D139D72459109F006C42DD /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		67D139D924591CB4006C42DD /* PokemonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				67D139CC2459095F006C42DD /* Assets.xcassets */,
 				67D139CE2459095F006C42DD /* LaunchScreen.storyboard */,
 				67D139D12459095F006C42DD /* Info.plist */,
+				67D139D72459109F006C42DD /* Pokemon.swift */,
+				67D139D924591CB4006C42DD /* PokemonViewController.swift */,
 			);
 			path = Pokedex;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				67D139C82459095D006C42DD /* ViewController.swift in Sources */,
+				67D139DA24591CB4006C42DD /* PokemonViewController.swift in Sources */,
+				67D139D82459109F006C42DD /* Pokemon.swift in Sources */,
 				67D139C42459095D006C42DD /* AppDelegate.swift in Sources */,
 				67D139C62459095D006C42DD /* SceneDelegate.swift in Sources */,
 			);
